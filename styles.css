@@ -11,7 +11,9 @@ body {
   .page {
     margin: 20px 0
   }
-  
+  * {
+    box-sizing: border-box;
+  }
   .page:after {
     content: "";
     display: table;
@@ -25,6 +27,7 @@ body {
     background: #1abc9c;
     background: rgba(26,188,156, 0.4);
     min-height: 600px;
+    padding: 20px;
   }
 
   a{
@@ -37,6 +40,13 @@ body {
   
   /* Small Screen */
   @media only screen and (max-width: 768px) {
+      .sidebar-cont{
+        width: 100%; 
+        position: fixed; 
+        top: 0px;
+        left: 0px;   
+    }
+
     .sidebar {
       /* display: none; */
       grid-column: 1/1;
@@ -46,8 +56,11 @@ body {
       width: 768px;
       margin: 0 auto;
     }
+
+    
     .content {
       margin-left: 0;
+      padding-top: 100px;
     }
 
     .wrapper {
@@ -61,7 +74,6 @@ body {
   }
 
   /* Large Screen */
-
   @media only screen and (min-width: 769px) {
     .sidebar {
         position: fixed;
@@ -75,9 +87,7 @@ body {
         color: #eee;
         min-height: 600px;
       }
-
-     
-      
+    
       .wrapper {
         max-width: 1160px;
         margin: 0 auto;
