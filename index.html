@@ -58,7 +58,7 @@
             opacity: 0;
             transition: all 300ms ease-in-out;
         }
-        
+
         /* large screen */
         @media only screen and (min-width:901px) {
             .project-wrapper {
@@ -83,8 +83,24 @@
             color: white;
         }
 
-        .thumbnail-container{
+        .thumbnail-container {
             padding-bottom: 330px;
+        }
+
+        .title{
+            color:#057ab9;
+        }
+
+        .title:hover{
+            color: #3cb5f9;
+        }
+
+        .title-white{
+            color: white;
+        }
+
+        .title-white:hover{
+            color: #057ab9;
         }
     </style>
 
@@ -148,7 +164,7 @@
                     <div class="container project-wrapper">
                         <div class="thumbnail-container">
                             <h1>
-                                <a href="https://backinthedai.github.io/RQM/" target="_blank">Random Quote Machine</a>
+                                <a class="title-white" href="https://backinthedai.github.io/RQM/" target="_blank">Random Quote Machine</a>
                             </h1>
                             <div class="thumbnail">
                                 <iframe src="https://backinthedai.github.io/RQM/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)"></iframe>
@@ -162,7 +178,7 @@
                         </div>
                         <div class="thumbnail-container">
                             <h1>
-                                <a href="https://backinthedai.github.io/Weather/" target="_blank">Local Weather API</a>
+                                <a class="title-white" href="https://backinthedai.github.io/Weather/" target="_blank">Local Weather API</a>
                             </h1>
                             <div class="thumbnail">
                                 <iframe src="https://backinthedai.github.io/Weather/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)">
@@ -175,7 +191,7 @@
                         </div>
                         <div class="thumbnail-container">
                             <h1>
-                                <a href="https://backinthedai.github.io/Wikiviewer/" target="_blank">Wiki API</a>
+                                <a class="title-white" href="https://backinthedai.github.io/Wikiviewer/" target="_blank">Wiki API</a>
                             </h1>
                             <div class="thumbnail">
                                 <iframe src="https://backinthedai.github.io/Wikiviewer/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)"></iframe>
@@ -187,78 +203,102 @@
                     </div>
                 </section>
                 <section>
-                    <div class="container">
-                        <h1>Chocolate, vanilla, and red velvet</h1>
-                        <p>Cupcake ipsum dolor sit amet lollipop. Macaroon candy cotton candy bear claw macaroon carrot cake
-                            pastry icing dessert. Cupcake pastry tart sesame snaps lollipop donut pie. Cookie apple pie toffee
-                            lemon drops jelly beans cheesecake sweet roll. Jelly-o soufflé donut candy canes wafer dragée
-                            sweet cheesecake. Macaroon caramels pie cookie gummi bears. Ice cream jelly-o toffee cookie gingerbread
-                            cookie. Soufflé fruitcake jelly-o jelly chupa chups jelly beans. Dragée marzipan pastry macaroon
-                            oat cake muffin soufflé topping liquorice. Jelly-o chocolate cake lollipop.</p>
-                        <p>Sugar plum muffin cookie pastry oat cake icing candy canes chocolate. Gummi bears chupa chups fruitcake
-                            dessert jelly. Muffin cookie ice cream soufflé pastry lollipop gingerbread sweet. Unerdwear.com
-                            bonbon candy marzipan bonbon gummies chocolate cake gummi bears powder. Unerdwear.com tart halvah
-                            chocolate cake dragée liquorice. Sugar plum chocolate bar pastry liquorice dragée jelly powder.
-                            Jelly tootsie roll applicake caramels. Marzipan candy tootsie roll donut. Gummies ice cream macaroon
-                            applicake.
-                        </p>
+                    <div class="container project-wrapper">
+                        <div class="thumbnail-container">
+                            <!-- Second Row of Projects-->
+                            <h1>
+                                <a class="title" href="https://backinthedai.github.io/Twitch/" target="_blank">Twitch TV API</a>
+                            </h1>
+                            <div class="thumbnail">
+                                <iframe src="https://backinthedai.github.io/Twitch/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)"></iframe>
+                            </div>
+
+                            <!-- <div>
+                                <p> Completed June 03, 2017</p>
+                                <p>This was a fun project. I get to understand array of objects, the confusions of regex and
+                                    learn how to access a raw JSON file on github.</p>
+                            </div> -->
+                        </div>
+                        <div class="thumbnail-container">
+                            <h1>
+                                <a class="title" href="https://backinthedai.github.io/Calculator/" target="_blank">Calculator</a>
+                            </h1>
+                            <div class="thumbnail">
+                                <iframe src="https://backinthedai.github.io/Calculator/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)">
+                                </iframe>
+                            </div>
+
+                            <!-- <p> Completed June 03, 2017</p>
+                                <p>This was a fun project. I get to understand array of objects, the confusions of regex and learn
+                                how to access a raw JSON file on github.</p> -->
+                        </div>
+                        <div class="thumbnail-container">
+                            <h1>
+                                <a class="title" href="https://backinthedai.github.io/pomodoro/" target="_blank">Pomodoro Clock</a>
+                            </h1>
+                            <div class="thumbnail">
+                                <iframe src="https://backinthedai.github.io/pomodoro/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)"></iframe>
+                            </div>
+                            <!-- <p> Completed June 03, 2017</p>
+                                    <p>This was a fun project. I get to understand array of objects, the confusions of regex and learn
+                                    how to access a raw JSON file on github.</p> -->
+                        </div>
                     </div>
-                </section>
-                <section class="color">
-                    <div class="container">
-                        <h1>Come to me!</h1>
-                        <p>Cupcake ipsum dolor sit amet lollipop. Macaroon candy cotton candy bear claw macaroon carrot cake
-                            pastry icing dessert. Cupcake pastry tart sesame snaps lollipop donut pie. Cookie apple pie toffee
-                            lemon drops jelly beans cheesecake sweet roll. Jelly-o soufflé donut candy canes wafer dragée
-                            sweet cheesecake. Macaroon caramels pie cookie gummi bears. Ice cream jelly-o toffee cookie gingerbread
-                            cookie. Soufflé fruitcake jelly-o jelly chupa chups jelly beans. Dragée marzipan pastry macaroon
-                            oat cake muffin soufflé topping liquorice. Jelly-o chocolate cake lollipop.</p>
-                        <p>Sugar plum muffin cookie pastry oat cake icing candy canes chocolate. Gummi bears chupa chups fruitcake
-                            dessert jelly. Muffin cookie ice cream soufflé pastry lollipop gingerbread sweet. Unerdwear.com
-                            bonbon candy marzipan bonbon gummies chocolate cake gummi bears powder. Unerdwear.com tart halvah
-                            chocolate cake dragée liquorice. Sugar plum chocolate bar pastry liquorice dragée jelly powder.
-                            Jelly tootsie roll applicake caramels. Marzipan candy tootsie roll donut. Gummies ice cream macaroon
-                            applicake.
-                        </p>
-                    </div>
-                </section>
-                <section>
-                    <div class="container">
-                        <h1>Sugar rush, oh my...</h1>
-                        <p>Cupcake ipsum dolor sit amet lollipop. Macaroon candy cotton candy bear claw macaroon carrot cake
-                            pastry icing dessert. Cupcake pastry tart sesame snaps lollipop donut pie. Cookie apple pie toffee
-                            lemon drops jelly beans cheesecake sweet roll. Jelly-o soufflé donut candy canes wafer dragée
-                            sweet cheesecake. Macaroon caramels pie cookie gummi bears. Ice cream jelly-o toffee cookie gingerbread
-                            cookie. Soufflé fruitcake jelly-o jelly chupa chups jelly beans. Dragée marzipan pastry macaroon
-                            oat cake muffin soufflé topping liquorice. Jelly-o chocolate cake lollipop.</p>
-                        <p>Sugar plum muffin cookie pastry oat cake icing candy canes chocolate. Gummi bears chupa chups fruitcake
-                            dessert jelly. Muffin cookie ice cream soufflé pastry lollipop gingerbread sweet. Unerdwear.com
-                            bonbon candy marzipan bonbon gummies chocolate cake gummi bears powder. Unerdwear.com tart halvah
-                            chocolate cake dragée liquorice. Sugar plum chocolate bar pastry liquorice dragée jelly powder.
-                            Jelly tootsie roll applicake caramels. Marzipan candy tootsie roll donut. Gummies ice cream macaroon
-                            applicake.
-                        </p>
-                    </div>
-                </section>
+            </div>
+            </section>
+            <section class="color">
+                <div class="container">
+                    <h1>Come to me!</h1>
+                    <p>Cupcake ipsum dolor sit amet lollipop. Macaroon candy cotton candy bear claw macaroon carrot cake pastry
+                        icing dessert. Cupcake pastry tart sesame snaps lollipop donut pie. Cookie apple pie toffee lemon
+                        drops jelly beans cheesecake sweet roll. Jelly-o soufflé donut candy canes wafer dragée sweet cheesecake.
+                        Macaroon caramels pie cookie gummi bears. Ice cream jelly-o toffee cookie gingerbread cookie. Soufflé
+                        fruitcake jelly-o jelly chupa chups jelly beans. Dragée marzipan pastry macaroon oat cake muffin
+                        soufflé topping liquorice. Jelly-o chocolate cake lollipop.</p>
+                    <p>Sugar plum muffin cookie pastry oat cake icing candy canes chocolate. Gummi bears chupa chups fruitcake
+                        dessert jelly. Muffin cookie ice cream soufflé pastry lollipop gingerbread sweet. Unerdwear.com bonbon
+                        candy marzipan bonbon gummies chocolate cake gummi bears powder. Unerdwear.com tart halvah chocolate
+                        cake dragée liquorice. Sugar plum chocolate bar pastry liquorice dragée jelly powder. Jelly tootsie
+                        roll applicake caramels. Marzipan candy tootsie roll donut. Gummies ice cream macaroon applicake.
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <h1>Sugar rush, oh my...</h1>
+                    <p>Cupcake ipsum dolor sit amet lollipop. Macaroon candy cotton candy bear claw macaroon carrot cake pastry
+                        icing dessert. Cupcake pastry tart sesame snaps lollipop donut pie. Cookie apple pie toffee lemon
+                        drops jelly beans cheesecake sweet roll. Jelly-o soufflé donut candy canes wafer dragée sweet cheesecake.
+                        Macaroon caramels pie cookie gummi bears. Ice cream jelly-o toffee cookie gingerbread cookie. Soufflé
+                        fruitcake jelly-o jelly chupa chups jelly beans. Dragée marzipan pastry macaroon oat cake muffin
+                        soufflé topping liquorice. Jelly-o chocolate cake lollipop.</p>
+                    <p>Sugar plum muffin cookie pastry oat cake icing candy canes chocolate. Gummi bears chupa chups fruitcake
+                        dessert jelly. Muffin cookie ice cream soufflé pastry lollipop gingerbread sweet. Unerdwear.com bonbon
+                        candy marzipan bonbon gummies chocolate cake gummi bears powder. Unerdwear.com tart halvah chocolate
+                        cake dragée liquorice. Sugar plum chocolate bar pastry liquorice dragée jelly powder. Jelly tootsie
+                        roll applicake caramels. Marzipan candy tootsie roll donut. Gummies ice cream macaroon applicake.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- #main -->
+
+
+    <footer>
+        <div id="info-bar">
+            <div class="container clearfix">
+                <span class="all-tutorials">
+                    <!-- <a href="http://www.callmenick.com/tutorials">&larr; all tutorials</a> -->
+                </span>
+                <span class="back-to-tutorial">
+                    <!-- <a href="http://www.callmenick.com/tutorials/create-an-animated-resizing-header-on-scroll">back to the tutorial</a> -->
+                </span>
             </div>
         </div>
-        <!-- #main -->
-
-
-        <footer>
-            <div id="info-bar">
-                <div class="container clearfix">
-                    <span class="all-tutorials">
-                        <!-- <a href="http://www.callmenick.com/tutorials">&larr; all tutorials</a> -->
-                    </span>
-                    <span class="back-to-tutorial">
-                        <!-- <a href="http://www.callmenick.com/tutorials/create-an-animated-resizing-header-on-scroll">back to the tutorial</a> -->
-                    </span>
-                </div>
-            </div>
-            <!-- /#top-bar -->
-        </footer>
-        <!-- /footer -->
+        <!-- /#top-bar -->
+    </footer>
+    <!-- /footer -->
 
 
 
