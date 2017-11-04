@@ -13,6 +13,7 @@
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
         img {
@@ -58,8 +59,9 @@
             opacity: 0;
             transition: all 300ms ease-in-out;
         }
-       
+
         /* large screen */
+
         @media only screen and (min-width:901px) {
             .project-wrapper {
                 display: grid;
@@ -70,6 +72,7 @@
         }
 
         /* small screen */
+
         @media only screen and (max-width: 900px) {
             .project-wrapper {
                 display: grid;
@@ -87,7 +90,8 @@
             padding-bottom: 330px;
         }
 
-        .title, .title p {
+        .title,
+        .title p {
             color: #057ab9;
         }
 
@@ -103,7 +107,7 @@
             color: #057ab9;
         }
 
-        h1 p{
+        h1 p {
             font-size: 11px;
         }
     </style>
@@ -130,15 +134,16 @@
 <body>
 
     <div id="wrapper">
+            
         <header>
             <div class="container clearfix">
                 <h1 id="logo">
                     BITD
                 </h1>
                 <nav>
-                    <a href="">About</a>
-                    <a href="">Projects</a>
-                    <a href="">Contact</a>
+                    <a href="#top">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
                 </nav>
             </div>
         </header>
@@ -148,12 +153,12 @@
             <div id="content">
                 <section>
                     <div class="container">
-                        <h1>Welcome to BITD (back in the dai)</h1>
+                        <h1>Welcome Back in The Dai</h1>
                         <p>Working in the IT field for awhile now. Maintaining and building servers, networks and global IT
                             teams. Started coding as a recreational hobby that has turned into a passion. The enjoyment of
                             figuring out algorithms, teaching others or choosing the right color of a CSS stlying has sometimes
-                            kept me up all night. Below are some of the projects I have completed and am very proud of. The
-                            journey has begun. Enjoy!</p>
+                            kept me up all night. Below are some of the projects I have completed(not perfect) and am very
+                            proud of. The journey has begun. Enjoy!</p>
 
                         <p>Currently I am mainly focusing on JavaScript, HTML and CSS. However, I am looking forward to C#,
                             .NET framework, and some Python. So much to learn so little time...</p>
@@ -165,44 +170,34 @@
                     <div class="container project-wrapper">
                         <div class="thumbnail-container">
                             <h1>
-                                <a class="title-white" href="https://backinthedai.github.io/RQM/" target="_blank">Random Quote Machine</a>
-                                <p> Completed June 03, 2017</p>
+                                <a class="title-white" href="https://backinthedai.github.io/TTT/" target="_blank">Tic-Tac-Toe</a>
+                                <p>Completed Oct 28, 2017</p>
                             </h1>
                             <div class="thumbnail">
-                                <iframe src="https://backinthedai.github.io/RQM/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)"></iframe>
+                                <iframe src="https://backinthedai.github.io/TTT/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)"></iframe>
                             </div>
-
-                            <!-- <div>
-                                <p> Completed June 03, 2017</p>
-                                <p>This was a fun project. I get to understand array of objects, the confusions of regex and
-                                    learn how to access a raw JSON file on github.</p>
-                            </div> -->
                         </div>
+
                         <div class="thumbnail-container">
                             <h1>
-                                <a class="title-white" href="https://backinthedai.github.io/Weather/" target="_blank">Local Weather API</a>
-                                <p>Completed Jul 05, 2017</p>
+                                <a class="title-white" href="https://backinthedai.github.io/pomodoro/" target="_blank">Pomodoro Clock</a>
+                                <p>Completed Oct 15, 2017</p>
                             </h1>
                             <div class="thumbnail">
-                                <iframe src="https://backinthedai.github.io/Weather/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)">
+                                <iframe src="https://backinthedai.github.io/pomodoro/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="thumbnail-container">
+
+                            <h1>
+                                <a class="title-white" href="https://backinthedai.github.io/Calculator/" target="_blank">Calculator</a>
+                                <p>Completed Sep 29, 2017</p>
+                            </h1>
+                            <div class="thumbnail">
+                                <iframe src="https://backinthedai.github.io/Calculator/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)">
                                 </iframe>
                             </div>
-
-                            <!-- <p> Completed June 03, 2017</p>
-                            <p>This was a fun project. I get to understand array of objects, the confusions of regex and learn
-                                how to access a raw JSON file on github.</p> -->
-                        </div>
-                        <div class="thumbnail-container">
-                            <h1>
-                                <a class="title-white" href="https://backinthedai.github.io/Wikiviewer/" target="_blank">Wiki API</a>
-                                <p>Completed Jul 18, 2017</p>
-                            </h1>
-                            <div class="thumbnail">
-                                <iframe src="https://backinthedai.github.io/Wikiviewer/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)"></iframe>
-                            </div>
-                            <!-- <p> Completed June 03, 2017</p>
-                            <p>This was a fun project. I get to understand array of objects, the confusions of regex and learn
-                                how to access a raw JSON file on github.</p> -->
                         </div>
                     </div>
                 </section>
@@ -218,37 +213,30 @@
                                 <iframe src="https://backinthedai.github.io/Twitch/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)"></iframe>
                             </div>
 
-                            <!-- <div>
-                                <p> Completed June 03, 2017</p>
-                                <p>This was a fun project. I get to understand array of objects, the confusions of regex and
-                                    learn how to access a raw JSON file on github.</p>
-                            </div> -->
+
                         </div>
                         <div class="thumbnail-container">
                             <h1>
-                                <a class="title" href="https://backinthedai.github.io/Calculator/" target="_blank">Calculator</a>
-                                <p>Completed Sep 29, 2017</p>
+                                <a class="title" href="https://backinthedai.github.io/Wikiviewer/" target="_blank">Wiki API</a>
+                                <p>Completed Jul 18, 2017</p>
                             </h1>
                             <div class="thumbnail">
-                                <iframe src="https://backinthedai.github.io/Calculator/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)">
+                                <iframe src="https://backinthedai.github.io/Wikiviewer/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)"></iframe>
+                            </div>
+
+
+
+                        </div>
+                        <div class="thumbnail-container">
+                            <h1>
+                                <a class="title" href="https://backinthedai.github.io/Weather/" target="_blank">Local Weather API</a>
+                                <p>Completed Jul 05, 2017</p>
+                            </h1>
+                            <div class="thumbnail">
+                                <iframe src="https://backinthedai.github.io/Weather/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)">
                                 </iframe>
                             </div>
 
-                            <!-- <p> Completed June 03, 2017</p>
-                                <p>This was a fun project. I get to understand array of objects, the confusions of regex and learn
-                                how to access a raw JSON file on github.</p> -->
-                        </div>
-                        <div class="thumbnail-container">
-                            <h1>
-                                <a class="title" href="https://backinthedai.github.io/pomodoro/" target="_blank">Pomodoro Clock</a>
-                                <p>Completed Oct 15, 2017</p>
-                            </h1>
-                            <div class="thumbnail">
-                                <iframe src="https://backinthedai.github.io/pomodoro/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)"></iframe>
-                            </div>
-                            <!-- <p> Completed June 03, 2017</p>
-                                    <p>This was a fun project. I get to understand array of objects, the confusions of regex and learn
-                                    how to access a raw JSON file on github.</p> -->
                         </div>
                     </div>
             </div>
@@ -258,59 +246,46 @@
                     <div class="thumbnail-container">
                         <!-- Third Row of Projects-->
                         <h1>
-                            <a class="title-white" href="https://backinthedai.github.io/TTT/" target="_blank">Tic-Tac-Toe</a>
-                            <p>Completed Oct 28, 2017</p>
-                        </h1>
-                        <div class="thumbnail">
-                            <iframe src="https://backinthedai.github.io/TTT/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)"></iframe>
-                        </div>
-
-                        <!-- <div>
+                            <a class="title-white" href="https://backinthedai.github.io/RQM/" target="_blank">Random Quote Machine</a>
                             <p> Completed June 03, 2017</p>
-                            <p>This was a fun project. I get to understand array of objects, the confusions of regex and
-                                learn how to access a raw JSON file on github.</p>
-                        </div> -->
-                    </div>
-                    <div class="thumbnail-container">
-                        <h1>
-                            <a class="title-white" href="#" target="_blank">Coming Soon</a>
                         </h1>
                         <div class="thumbnail">
-                            <!-- <iframe src="https://backinthedai.github.io/Calculator/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)">
-                            </iframe> -->
+                            <iframe src="https://backinthedai.github.io/RQM/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)"></iframe>
                         </div>
 
-                        <!-- <p> Completed June 03, 2017</p>
-                                <p>This was a fun project. I get to understand array of objects, the confusions of regex and learn
-                                how to access a raw JSON file on github.</p> -->
+
                     </div>
-                    <div class="thumbnail-container">
-                        <h1>
-                            <a class="title-white" href="#" target="_blank">Coming Soon</a>
-                        </h1>
-                        <div class="thumbnail">
-                            <!-- <iframe src="https://backinthedai.github.io/pomodoro/" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)"></iframe> -->
-                        </div>
-                        <!-- <p> Completed June 03, 2017</p>
-                                <p>This was a fun project. I get to understand array of objects, the confusions of regex and learn
-                                how to access a raw JSON file on github.</p> -->
-                    </div>
+
                 </div>
             </section>
             <section>
                 <div class="container">
-                    <h1>Sugar rush, oh my...</h1>
-                    <p>Cupcake ipsum dolor sit amet lollipop. Macaroon candy cotton candy bear claw macaroon carrot cake pastry
-                        icing dessert. Cupcake pastry tart sesame snaps lollipop donut pie. Cookie apple pie toffee lemon
-                        drops jelly beans cheesecake sweet roll. Jelly-o soufflé donut candy canes wafer dragée sweet cheesecake.
-                        Macaroon caramels pie cookie gummi bears. Ice cream jelly-o toffee cookie gingerbread cookie. Soufflé
-                        fruitcake jelly-o jelly chupa chups jelly beans. Dragée marzipan pastry macaroon oat cake muffin
-                        soufflé topping liquorice. Jelly-o chocolate cake lollipop.</p>
-                    <p>Sugar plum muffin cookie pastry oat cake icing candy canes chocolate. Gummi bears chupa chups fruitcake
-                        dessert jelly. Muffin cookie ice cream soufflé pastry lollipop gingerbread sweet. Unerdwear.com bonbon
-                        candy marzipan bonbon gummies chocolate cake gummi bears powder. Unerdwear.com tart halvah chocolate
-                        cake dragée liquorice. Sugar plum chocolate bar pastry liquorice dragée jelly powder. Jelly tootsie
-                        roll applicake caramels. Marzipan candy tootsie roll donut. Gummies ice cream macaroon applicake.
+                        <a name="contact"></a> 
+                    <h1>Get in Contact</h1>
+                    <p>
+                        <div>
+                            <a class="contact-email" href="mailto:dai@daiphung.com">
+                                <i class="fa fa-envelope fa-2x"></i> dai@daiphung.com
+                            </a>
+                        </div>
+                    </p>
+                    <p>
+                        <h1>this is where I self-taught myself to code and meeting some great people along the way!</h1>
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="http://www.freecodecamp.com">Free Code Camp</a> - Some of the best algorithms and on my last project to Front-End Certificate.</li>
+                        <li>
+                            <a href="http://www.codewars.com">Code Wars</a> - A place to up your algorithm skills.</li>
+                        <li>
+                            <a href="http://www.hackerRank.com">Hacker Rank</a> - Test your knowledge of Data Structure here.</li>
+                        <li>
+                            <a href="https://www.meetup.com/topics/nodejs/">Nodejs</a> - Learn all things JavaScript.</li>
+                        <li>
+                            <a href="https://www.meetup.com/Node-Girls-Sydney//">Node Girls</a> - Encouragement to have more female in IT.</li>
+                        <li>
+                            <a href="https://www.facebook.com/groups/free.code.camp.sydney.au/">Free Code Camp Sydney</a> Biweekly gathering of great future minds in development.</li>
+                    </ul>
                     </p>
                 </div>
             </section>
